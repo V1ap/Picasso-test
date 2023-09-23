@@ -1,0 +1,52 @@
+@import "./styles/normalize.css";
+@import "./styles/vars.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: $blackColor;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 52px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

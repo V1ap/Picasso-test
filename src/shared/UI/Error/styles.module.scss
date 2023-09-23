@@ -1,0 +1,7 @@
+@import "src/app/styles/vars.scss";
+
+.error {
+  color: $errorColor;
+  text-align: center;
+  padding: 20px;
+}

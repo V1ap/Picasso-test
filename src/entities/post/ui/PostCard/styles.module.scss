@@ -1,0 +1,26 @@
+@import "src/app/styles/vars.scss";
+
+.postCard {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-areas:
+    ". title"
+    ". userId"
+    "body body";
+  gap: 20px;
+
+  &__title {
+    grid-area: title;
+    margin: 0;
+  }
+
+  &__userId {
+    grid-area: userId;
+    color: $darkGrayColor;
+  }
+
+  &__body {
+    grid-area: body;
+    color: $darkGrayColor;
+  }
+}

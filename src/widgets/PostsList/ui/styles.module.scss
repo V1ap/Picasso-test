@@ -1,0 +1,30 @@
+@import "src/app/styles/vars.scss";
+
+.postList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__container {
+    height: calc(100vh);
+    overflow: auto;
+    position: relative;
+    width: 100%;
+  }
+
+  &__loader {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__error {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__observer {
+    top: 0px;
+    min-height: 1px;
+    position: absolute;
+  }
+}

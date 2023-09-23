@@ -1,0 +1,29 @@
+@import "src/app/styles/vars.scss";
+
+.postItem {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  display: grid;
+  grid-template-columns: 50px auto auto 150px;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid $blackColor;
+  border-radius: 20px;
+
+  &__id {
+    font-weight: 700;
+  }
+
+  &__title {
+    white-space: nowrap;
+  }
+
+  &__description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
